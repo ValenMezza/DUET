@@ -1,0 +1,11 @@
+body{
+    width: 100vw;
+    font-size: 16px;
+    background-image: url("../../imagenes/background.png");
+background-position: center;
+button:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+}

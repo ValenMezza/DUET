@@ -1,0 +1,19 @@
+@import "../variables/-variables.scss";
+
+header{
+    width: 100%;
+    background-color: $fondo;
+    display: flex;
+    flex-direction: row;
+    border: solid 2px black;
+    ul {
+        display: flex;
+        flex-direction: row;
+        width: 30vw;
+        li{
+            list-style: none;
+            margin: auto;
+            justify-content: space-around;
+        }
+    }
+}
