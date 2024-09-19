@@ -154,7 +154,7 @@ main {
         width: 15vw;
         border: solid black 2px;
         border-radius: 10px;
-        text-align: end;
+        text-align: start;
         background-color: #e6e6e6; }
     main #gestionPacientes button {
       width: 10vw;

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/pruebacss.css">
-    <link  href="../javascript/index.js">
+    <link href="../javascript/index.js">
 
     <title>inicio</title>
 </head>
@@ -23,75 +23,81 @@
         <div id="gestionPacientes">
             <a href="./../index.html"><button>volver</button></a>
             <button id="btnIngresoPaciente">Ingreso de nuevo paciente</button>
-            <button>Historial de pacientes</button>
+            <button id="btnHistorial">Historial de pacientes</button>
             <hr color="black">
             <button id="btnIngresoPacienteAdulto">Paciente Adulto</button>
             <button id="btnIngresoPacientePed">Paciente Pediátrico</button>
-            <hr id="hrHidden"  color="black">
-            
-            <div id="forms" >
-                <form id="register" action="">
-                    <div id="formRegister">
-                        <label for="name">Nombre: </label>
-                        <input type="text" name="" id="name">
-                        <label for="apellido">Apellido: </label>
-                        <input type="text" name="" id="apellido">
-                        <label for="dni">DNI: </label>
-                        <input type="number" name="" id="dni">
-                        <label for="nacimiento">Fecha de nacimiento: </label>
-                        <input type="date" name="" id="nacimiento">
-                        <label for="edad">Edad: </label>
-                        <input type="number" name="" id="edad">
-                        <label for="direccion">Dirección: </label>
-                        <input type="text" id="direccion">
-                        <label for="contacto">Teléfono:</label>
-                        <input type="tel" name="" id="contacto">
-                        <label for="profesion">Profesión: </label>
-                        <input type="text" id="profesion">
+            <hr id="hrHidden" color="black">
 
-                    </div>
-                    <div id="formRegister1">
-                        <form>
-                            <label for="Profesional">Profesional: </label>
-                            <select name="" id="" label="select">
-                                <option value="" disabled selected>Seleccionar</option>
-                                <option value="Milagros Avellaneda">Milagros Avellaneda</option>
-                                <option value="Carla Farah">Carla Farah</option>
-
-                            </select>
-
-                            <div id="obraSocial">
-                                <h4>Obra Social</h4>
-                                <form id="formObra">
-                                    <div id="labels">
-                                        <label for="">Si </label>
-                                        <label for="">No </label>
-                                    </div>
-                                    <div id="checkbox">
-                                        <input class="checkObra" type="checkbox" id="true">
-                                        <input class="checkObra" type="checkbox" id="false">
-                                    </div>
-                                </form>
-
-                            </div>
-                        </form>
-                        <div id="selectObras">
-                            <label for="obras">Seleccionar Obra social</label>
-                            <select name="obras" id="">
-                                <option value="" disabled selected>Seleccionar</option>
-                                <option value="Milagros Avellaneda">Milagros Avellaneda</option>
-                                <option value="Carla Farah">Carla Farah</option>
-                            </select>
+            <div id="formularios">
+                <div id="forms">
+                    <form id="register" action="">
+                        <div id="formRegister">
+                            <label for="name">Nombre: </label>
+                            <input type="text" name="" id="name">
+                            <label for="apellido">Apellido: </label>
+                            <input type="text" name="" id="apellido">
+                            <label for="dni">DNI: </label>
+                            <input type="number" name="" id="dni">
+                            <label for="nacimiento">Fecha de nacimiento: </label>
+                            <input type="date" name="" id="nacimiento">
+                            <label for="edad">Edad: </label>
+                            <input type="number" name="" id="edad">
+                            <label for="direccion">Dirección: </label>
+                            <input type="text" id="direccion">
+                            <label for="contacto">Teléfono:</label>
+                            <input type="tel" name="" id="contacto">
+                            <label for="profesion">Profesión: </label>
+                            <input type="text" id="profesion">
 
                         </div>
-                    </div>
-                </form>
-                <button type="submit">Registrar</button>
+                        <div id="formRegister1">
+                            <form>
+                                <label for="Profesional">Profesional: </label>
+                                <select name="" id="" label="select">
+                                    <option value="" disabled selected>Seleccionar</option>
+                                    <option value="Milagros Avellaneda">Milagros Avellaneda</option>
+                                    <option value="Carla Farah">Carla Farah</option>
+
+                                </select>
+
+                                <div id="obraSocial">
+                                    <h4>Obra Social</h4>
+                                    <form id="formObra">
+                                        <div id="labels">
+                                            <label for="">Si </label>
+                                            <label for="">No </label>
+                                        </div>
+                                        <div id="checkbox">
+                                            <input class="checkObra" type="checkbox" id="true">
+                                            <input class="checkObra" type="checkbox" id="false">
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </form>
+                            <div id="selectObras">
+                                <label for="obras">Seleccionar Obra social</label>
+                                <select name="obras" id="">
+                                    <option value="" disabled selected>Seleccionar</option>
+                                    <option value="Milagros Avellaneda">Milagros Avellaneda</option>
+                                    <option value="Carla Farah">Carla Farah</option>
+                                </select>
+
+                            </div>
+                        </div>
+                    </form>
+                    <button type="submit">Registrar</button>
+
+                </div>
+                <div id="formPed">
+                    <h1>Pediátrico</h1>
+                </div>
 
             </div>
-            <div id="formPed">
-                <h1>Pediátrico</h1>
-            </div>
+                <div id="historialPacientes">
+                    <h1>hola</h1>
+                </div>
         </div>
 
     </main>
